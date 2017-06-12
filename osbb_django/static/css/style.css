@@ -53,7 +53,7 @@
   .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:visited {
     color: white; }
   .navbar-brand {
-    padding-top: 10px; }
+    padding-top: 0; }
     .navbar-brand i {
       font-size: 3em;
       color: #1bbc9b; }
@@ -118,12 +118,13 @@
   form.sign-second {
     text-align: center; }
     form.sign-second input[type="text"], form.sign-second input[type="email"], form.sign-second input[type="number"] {
-      margin: 10px 0; }
+      margin: 10px 0;
+      text-align: center; }
   .form-sign-second {
     margin: 90px 0;
     text-align: center; }
   .form-sign {
-    margin: 200px 0;
+    margin: 100px 0;
     text-align: center; }
   .sliders {
     margin: 40px 0 80px; }
@@ -249,7 +250,7 @@
     border-radius: 4px 3px 3px 4px; }
   form.sign input[type="text"], form.sign input[type="email"] {
     text-align: center;
-    width: 320px;
+    width: 250px;
     margin: 20px auto 20px; }
   .sign-h {
     font-size: 32px; }
@@ -488,6 +489,31 @@
     float: none; }
   .logo {
     margin: 0 auto; }
+  form.sign-second {
+    text-align: center; }
+    form.sign-second input[type="text"], form.sign-second input[type="email"], form.sign-second input[type="number"] {
+      margin: 10px 0;
+      text-align: left; }
+  #qp_all1090256 {
+    margin-top: 60px; }
+  .voting {
+    margin-top: 150px;
+    margin-bottom: 50px; }
+  .fa.fa-plus-square-o {
+    color: #1bbc9b;
+    padding: 40px 0;
+    font-size: 10em; }
+  .button-ent, .button-ent:visited, .button-ent:hover, .button-ent:focus {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #f4f5f9;
+    font-size: 13px;
+    font-weight: 300;
+    background: #1bbc9b;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px 3px 3px 4px; }
   header ul.nav.navbar-nav {
     margin-top: 0; }
   .sliders-head {
@@ -495,10 +521,23 @@
     font-size: 38px; }
   .sliders-p {
     font-size: 24px; }
+  form.sign input[type="text"], form.sign input[type="email"] {
+    text-align: center;
+    width: 320px;
+    margin: 20px auto 20px; }
   .sliders-span {
     font-size: 20px; }
   .position {
-    margin-top: 120px; } }
+    margin-top: 120px; }
+  .navbar-header {
+    text-align: center; }
+  .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:visited {
+    color: white; }
+  .navbar-brand {
+    padding-top: 10px; }
+    .navbar-brand i {
+      font-size: 3em;
+      color: #1bbc9b; } }
 
 @media screen and (min-width: 1280px) {
   header {
@@ -509,12 +548,34 @@
   .position {
     bottom: -40px; }
   .navbar-header {
+    text-align: left; }
+  .navbar-header {
     width: auto; }
   .navbar-brand {
     float: left; }
+  .form-sign {
+    margin: 200px 0;
+    text-align: center; }
+  #qp_all1090256 {
+    margin-top: 80px; }
   .logo {
     margin-top: -8px;
     width: auto; }
+  .button-ent, .button-ent:visited, .button-ent:hover, .button-ent:focus {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #f4f5f9;
+    font-size: 18px;
+    font-weight: 300;
+    background: #1bbc9b;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px 3px 3px 4px; }
+  .fa.fa-plus-square-o {
+    color: #1bbc9b;
+    padding: 60px 0;
+    font-size: 10em; }
   header ul.nav.navbar-nav {
     margin-top: 15px; }
     header ul.nav.navbar-nav li a.nav-text {
