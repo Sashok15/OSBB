@@ -49,7 +49,7 @@
                             <h2 class="sign-h">Зарегистрируйся</h2>
                             <p class="sign-p">И верши судьбу своего дома вместе</p>
                             <form  class="sign-second" enctype="text/plain" autocomplete="on" method="post">
-                                {% csrf_token %}
+
                                 <div class="col-sm-offset-3 col-sm-3">
                                     <label class="sr-only" for="name"></label>
                                     <input required type="text" class="form-control" id="name" placeholder="Имя">
@@ -85,6 +85,7 @@
                                 <div class="col-sm-12">
                                     <button type="submit" class="btn btn-default">Зарегестрируватся</button>
                                 </div>
+                                {% csrf_token %}
                             </form>
 
                         </div>
