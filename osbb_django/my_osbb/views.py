@@ -1,6 +1,11 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-from django.template import loader
+from django.views.generic.edit import FormView
+
+
+class ContactView(FormView):
+    template_name = 'registerPerson.html'
+    #form_class = UserForm
+    success_url = '/thanks/'
 
 
 def index(request):
