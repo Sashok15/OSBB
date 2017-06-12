@@ -26,18 +26,18 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand osbb" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>ОСББ</a>
+                        <a class="navbar-brand osbb" href="{% url 'index' %}"><i class="fa fa-home" aria-hidden="true"></i>ОСББ</a>
 
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-left">
-                            <li class="activeli"><a class="nav-text activenav" href="index.html">Главная</a></li>
-                            <li><a class="nav-text" href="index.html">Как это работает?</a></li>
-                            <li><a class="nav-text" href="index.html">Отзывы</a></li>
+                            <li class="activeli"><a class="nav-text activenav" href="{% url 'index' %}">Главная</a></li>
+                            <li><a class="nav-text" href="{% url 'index' %}">Как это работает?</a></li>
+                            <li><a class="nav-text" href="{% url 'index' %}">Отзывы</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="activeli"><a class="nav-text" href="sign-in.html">Войти</a></li>
-                            <li class="activeli"><a class="nav-text" href="login.html">Регистрация</a></li>
+                            <li class="activeli"><a class="nav-text" href="{% url 'loginPerson' %}">Войти</a></li>
+                            <li class="activeli"><a class="nav-text" href="{% url 'loginOsbb' %}">Регистрация</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                                     <input required type="number" class="form-control" id="number" placeholder="Квартира">
                                 </div>
                                 <div class="col-sm-12">
-                                    <button class="sign-btn" type="submit" class="btn btn-default">Зарегестрируватся</button>
+                                    <button type="submit" class="btn btn-default">Зарегестрируватся</button>
                                 </div>
                             </form>
 

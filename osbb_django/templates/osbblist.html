@@ -32,9 +32,9 @@
                         </div>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-left">
-                                <li class="activeli"><a class="nav-text activenav" href="index.html">Главная</a></li>
-                                <li><a class="nav-text" href="index.html">Как это работает?</a></li>
-                                <li><a class="nav-text" href="index.html">Отзывы</a></li>
+                                <li class="activeli"><a class="nav-text activenav" href="{% url 'index' %}">Главная</a></li>
+                                <li><a class="nav-text" href="{% url 'index' %}">Как это работает?</a></li>
+                                <li><a class="nav-text" href="{% url 'index' %}">Отзывы</a></li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="active-user-p"><span>Alexandr Datsenko</span></li>
@@ -111,8 +111,8 @@
             </div>
             <div class="col-sm-3">
                 <div class="osbb-room">
-                    <a  href="login.html"><i class="fa fa-plus-square-o"></i></a>
-                    <a class="button-ent" href="login.html">Создать</a>
+                    <a  href="loginOsbb.html"><i class="fa fa-plus-square-o"></i></a>
+                    <a class="button-ent" href="loginOsbb.html">Создать</a>
                 </div>
             </div>
         </div>
