@@ -38,7 +38,7 @@
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="active-user-p"><span>Alexandr Datsenko</span></li>
-                                <li><img class="active-user" src="../static/image/nataha.png" alt="dacko"></li>
+                                <li><img class="active-user" src="{% static 'image/nataha.png'  %}" alt="dacko"></li>
                             </ul>
                         </div>
                     </div>
@@ -79,14 +79,6 @@
             </div>
             <div class="col-sm-3">
                 <div class="osbb-room">
-                    <img class="img-responsive" src="../static/image/images.png" alt="room1">
-                    <p class="location">Украина, Черкассы</p>
-                    <p class="location">Гоголя 567</p>
-                    <a class="button-ent" href="congratulations.html">Присоеденится</a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="osbb-room">
                     <img class="img-responsive" src="{% static 'image/images.png'  %}" alt="room1">
                     <p class="location">Украина, Черкассы</p>
                     <p class="location">Гоголя 567</p>
@@ -111,8 +103,16 @@
             </div>
             <div class="col-sm-3">
                 <div class="osbb-room">
-                    <a  href="loginOsbb.html"><i class="fa fa-plus-square-o"></i></a>
-                    <a class="button-ent" href="loginOsbb.html">Создать</a>
+                    <img class="img-responsive" src="{% static 'image/images.png'  %}" alt="room1">
+                    <p class="location">Украина, Черкассы</p>
+                    <p class="location">Гоголя 567</p>
+                    <a class="button-ent" href="congratulations.html">Присоеденится</a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="osbb-room">
+                    <a  href="registerOsbb.html"><i class="fa fa-plus-square-o"></i></a>
+                    <a class="button-ent" href="registerOsbb.html">Создать</a>
                 </div>
             </div>
         </div>

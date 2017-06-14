@@ -31,13 +31,13 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-left">
-                            <li class="activeli"><a class="nav-text activenav" href="index.html">Главная</a></li>
-                            <li><a class="nav-text" href="index.html">Как это работает?</a></li>
-                            <li><a class="nav-text" href="index.html">Отзывы</a></li>
+                            <li class="activeli"><a class="nav-text activenav" href="{% url 'index' %}">Главная</a></li>
+                            <li><a class="nav-text" href="{% url 'index' %}">Как это работает?</a></li>
+                            <li><a class="nav-text" href="{% url 'index' %}">Отзывы</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li class="activeli"><a class="nav-text" href="loginPerson.html">Войти</a></li>
-                            <li class="activeli"><a class="nav-text" href="loginOsbb.html">Регистрация</a></li>
+                            <li class="activeli"><a class="nav-text" href="registerOsbb.html">Регистрация</a></li>
                         </ul>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                                 <input required type="password" class="form-control" id="location" placeholder="Дом">
                                 <label class="sr-only" for="name">Пароль</label>
                                 <input required type="email" class="form-control" id="name" placeholder="E-mail головы">
-                                <button class="sign-btn" type="submit" class="btn btn-default">Создать</button>
+                                <button type="submit" class="btn btn-default">Создать</button>
                             </form>
                         </div>
                     </div>
